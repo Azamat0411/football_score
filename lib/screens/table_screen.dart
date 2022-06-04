@@ -19,7 +19,6 @@ class _TableScreenState extends State<TableScreen>{
   @override
   void initState() {
     super.initState();
-    print("ffff");
     page = [
       ResultsPage(code: widget.code),
       Statistics(code: widget.code)
